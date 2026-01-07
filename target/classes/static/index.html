@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prioritization Engine - Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Prioritization Engine</h1>
+
+      <section class="controls">
+        <div class="buttons">
+          <button id="btn-load-all">Cargar todas las solicitudes</button>
+          <button id="btn-load-priorizadas">Cargar priorizadas</button>
+        </div>
+
+        <form id="form-create" class="create-form">
+          <h2>Crear solicitud</h2>
+          <label>Tipo
+            <select id="tipoSolicitud" required>
+              <option value="INCIDENTE">INCIDENTE</option>
+              <option value="REQUERIMIENTO">REQUERIMIENTO</option>
+              <option value="CONSULTA">CONSULTA</option>
+            </select>
+          </label>
+
+          <label>Prioridad manual
+            <input id="prioridadManual" type="number" min="1" max="5" value="0" required />
+          </label>
+
+          <label>Usuario
+            <input id="usuario" type="text" placeholder="nombre de usuario" required />
+          </label>
+
+          <button type="submit">Crear</button>
+        </form>
+      </section>
+
+      <section>
+        <div id="message" class="message"></div>
+        <div id="tableContainer"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

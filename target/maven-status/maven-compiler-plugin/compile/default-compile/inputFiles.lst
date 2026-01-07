@@ -1,0 +1,11 @@
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\controller\SolicitudController.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\domain\Solicitud.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\domain\TipoSolicitud.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\PrioritizationEngineApplication.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\repository\SolicitudRepository.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\PrioritizationEngine.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\rules\AntiguedadRule.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\rules\PrioridadManualRule.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\rules\PrioritizationRule.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\rules\TipoSolicitudRule.java
+C:\Users\rolle\Downloads\prioritization-engine\src\main\java\com\proteccion\prioritization_engine\service\SolicitudService.java
